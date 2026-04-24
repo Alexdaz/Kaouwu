@@ -75,6 +75,51 @@ class AppLocalizationsEn extends AppLocalizations {
   String get searchKaomojiHint => 'Search kaomoji';
 
   @override
+  String get emotionFavorites => 'Favorites';
+
+  @override
+  String get emotionSaved => 'Saved';
+
+  @override
+  String get emotionHappy => 'Happy';
+
+  @override
+  String get emotionSad => 'Sad';
+
+  @override
+  String get emotionAngry => 'Angry';
+
+  @override
+  String get emotionLove => 'Love';
+
+  @override
+  String get emotionSurprised => 'Surprised';
+
+  @override
+  String get emotionShy => 'Shy';
+
+  @override
+  String get emotionSleepy => 'Sleepy';
+
+  @override
+  String get emotionConfused => 'Confused';
+
+  @override
+  String get emotionNervous => 'Nervous';
+
+  @override
+  String get emotionEmbarrassed => 'Embarrassed';
+
+  @override
+  String get emotionProud => 'Proud';
+
+  @override
+  String get emotionGreeting => 'Greeting';
+
+  @override
+  String get emotionCelebrating => 'Celebrating';
+
+  @override
   String emptyCategoryMessage(Object categoryLabel) {
     return 'There are no kaomojis in $categoryLabel yet.';
   }

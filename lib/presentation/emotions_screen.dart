@@ -4,11 +4,47 @@ import 'package:google_fonts/google_fonts.dart';
 import '../core/app_strings.dart';
 import '../core/constants/app_constants.dart';
 import '../core/emotion_category_ids.dart';
-import '../core/emotion_labels.dart';
 import '../data/kaomoji_txt_export.dart';
 import '../l10n/app_localizations.dart';
 import 'settings_screen.dart';
 import 'widgets/kaomoji_grid.dart';
+
+String _emotionLabel(AppLocalizations l10n, String key) {
+  switch (key) {
+    case EmotionCategoryIds.favorites:
+      return l10n.emotionFavorites;
+    case EmotionCategoryIds.saved:
+      return l10n.emotionSaved;
+    case 'happy':
+      return l10n.emotionHappy;
+    case 'sad':
+      return l10n.emotionSad;
+    case 'angry':
+      return l10n.emotionAngry;
+    case 'love':
+      return l10n.emotionLove;
+    case 'surprised':
+      return l10n.emotionSurprised;
+    case 'shy':
+      return l10n.emotionShy;
+    case 'sleepy':
+      return l10n.emotionSleepy;
+    case 'confused':
+      return l10n.emotionConfused;
+    case 'nervous':
+      return l10n.emotionNervous;
+    case 'embarrassed':
+      return l10n.emotionEmbarrassed;
+    case 'proud':
+      return l10n.emotionProud;
+    case 'greeting':
+      return l10n.emotionGreeting;
+    case 'celebrating':
+      return l10n.emotionCelebrating;
+    default:
+      return key;
+  }
+}
 
 class EmotionsScreen extends StatefulWidget {
   const EmotionsScreen({
@@ -101,7 +137,7 @@ class _EmotionsScreenState extends State<EmotionsScreen> {
           bottom: TabBar(
             isScrollable: true,
             tabs: entries
-                .map((entry) => Tab(text: emotionLabel(context, entry.key)))
+                .map((entry) => Tab(text: _emotionLabel(l10n, entry.key)))
                 .toList(),
           ),
           actions: [
@@ -187,7 +223,7 @@ class _EmotionsScreenState extends State<EmotionsScreen> {
                             .where((k) => k.toLowerCase().contains(_query))
                             .toList();
                   final isSavedCategory = entry.key == EmotionCategoryIds.saved;
-                  final categoryLabel = emotionLabel(context, entry.key);
+                  final categoryLabel = _emotionLabel(l10n, entry.key);
 
                   return KaomojiGrid(
                     kaomojis: filtered,

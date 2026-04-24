@@ -230,6 +230,96 @@ abstract class AppLocalizations {
   /// **'Search kaomoji'**
   String get searchKaomojiHint;
 
+  /// No description provided for @emotionFavorites.
+  ///
+  /// In en, this message translates to:
+  /// **'Favorites'**
+  String get emotionFavorites;
+
+  /// No description provided for @emotionSaved.
+  ///
+  /// In en, this message translates to:
+  /// **'Saved'**
+  String get emotionSaved;
+
+  /// No description provided for @emotionHappy.
+  ///
+  /// In en, this message translates to:
+  /// **'Happy'**
+  String get emotionHappy;
+
+  /// No description provided for @emotionSad.
+  ///
+  /// In en, this message translates to:
+  /// **'Sad'**
+  String get emotionSad;
+
+  /// No description provided for @emotionAngry.
+  ///
+  /// In en, this message translates to:
+  /// **'Angry'**
+  String get emotionAngry;
+
+  /// No description provided for @emotionLove.
+  ///
+  /// In en, this message translates to:
+  /// **'Love'**
+  String get emotionLove;
+
+  /// No description provided for @emotionSurprised.
+  ///
+  /// In en, this message translates to:
+  /// **'Surprised'**
+  String get emotionSurprised;
+
+  /// No description provided for @emotionShy.
+  ///
+  /// In en, this message translates to:
+  /// **'Shy'**
+  String get emotionShy;
+
+  /// No description provided for @emotionSleepy.
+  ///
+  /// In en, this message translates to:
+  /// **'Sleepy'**
+  String get emotionSleepy;
+
+  /// No description provided for @emotionConfused.
+  ///
+  /// In en, this message translates to:
+  /// **'Confused'**
+  String get emotionConfused;
+
+  /// No description provided for @emotionNervous.
+  ///
+  /// In en, this message translates to:
+  /// **'Nervous'**
+  String get emotionNervous;
+
+  /// No description provided for @emotionEmbarrassed.
+  ///
+  /// In en, this message translates to:
+  /// **'Embarrassed'**
+  String get emotionEmbarrassed;
+
+  /// No description provided for @emotionProud.
+  ///
+  /// In en, this message translates to:
+  /// **'Proud'**
+  String get emotionProud;
+
+  /// No description provided for @emotionGreeting.
+  ///
+  /// In en, this message translates to:
+  /// **'Greeting'**
+  String get emotionGreeting;
+
+  /// No description provided for @emotionCelebrating.
+  ///
+  /// In en, this message translates to:
+  /// **'Celebrating'**
+  String get emotionCelebrating;
+
   /// No description provided for @emptyCategoryMessage.
   ///
   /// In en, this message translates to:
