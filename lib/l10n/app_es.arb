@@ -1,0 +1,83 @@
+{
+  "@@locale": "es",
+  "catalogLoadError": "No se pudieron cargar los kaomojis.",
+  "splashSubtitle": "Kaomojis para tu día",
+  "retry": "Reintentar",
+  "emotionsTab": "Emociones",
+  "creatorTab": "Creador",
+  "settingsTitle": "Ajustes",
+  "themeTitle": "Tema",
+  "themeSubtitle": "Selecciona apariencia de la app",
+  "themeAutomatic": "Automático",
+  "themeLight": "Claro",
+  "themeDark": "Oscuro",
+  "licensesTitle": "Licencias",
+  "licensesSubtitle": "Licencias de código abierto y fuentes",
+  "exportTxtTooltip": "Exportar a .txt",
+  "exportFavorites": "Exportar favoritos (.txt)",
+  "exportSaved": "Exportar guardados (.txt)",
+  "exportFavoritesFileNameBase": "kaouwu_favoritos",
+  "exportSavedFileNameBase": "kaouwu_guardados",
+  "exportFavoritesSubject": "Kaouwu — favoritos",
+  "exportSavedSubject": "Kaouwu — guardados",
+  "settingsTooltip": "Ajustes",
+  "searchKaomojiHint": "Buscar kaomoji",
+  "emptyCategoryMessage": "Todavía no hay kaomojis en {categoryLabel}.",
+  "@emptyCategoryMessage": {
+    "placeholders": {
+      "categoryLabel": {}
+    }
+  },
+  "notFoundCategoryMessage": "No encontramos kaomojis en {categoryLabel}.",
+  "@notFoundCategoryMessage": {
+    "placeholders": {
+      "categoryLabel": {}
+    }
+  },
+  "deleteKaomojiTitle": "Eliminar kaomoji",
+  "deleteKaomojiQuestion": "¿Quieres eliminar {kaomoji} de guardados?",
+  "@deleteKaomojiQuestion": {
+    "placeholders": {
+      "kaomoji": {}
+    }
+  },
+  "delete": "Eliminar",
+  "cancel": "Cancelar",
+  "exportNoItems": "No hay kaomojis que exportar",
+  "exportError": "No se pudo exportar el archivo",
+  "creatorTitle": "Creador de Kaomojis",
+  "skinToneTitle": "Tono de piel (emojis)",
+  "skinToneDescription": "Se aplica a manos y brazos con tono, en vista previa y al copiar o guardar.",
+  "randomMixTooltip": "Mezcla aleatoria",
+  "previewTitle": "Vista previa",
+  "copy": "Copiar",
+  "save": "Guardar",
+  "copiedToClipboard": "Kaomoji copiado al portapapeles",
+  "savedInApp": "Kaomoji guardado en la app",
+  "decorationsTitle": "Decoraciones (varias)",
+  "decorationsDescription": "Adelante: al inicio del kaomoji (izquierda). Atrás: al final (derecha). Toca la tira para añadir piezas; puedes combinar varias.",
+  "before": "Adelante",
+  "after": "Atrás",
+  "startBefore": "Inicio (Adelante)",
+  "endAfter": "Final (Atrás)",
+  "appendOnSideLabel": "Toca para añadir (lado: {side})",
+  "@appendOnSideLabel": {
+    "placeholders": {
+      "side": {}
+    }
+  },
+  "leftArm": "Brazo izquierdo",
+  "faceExpression": "Cara / expresión",
+  "rightArm": "Brazo derecho",
+  "clear": "Vaciar",
+  "noneTapBelow": "(ninguna — toca la tira abajo para añadir)",
+  "savedSection": "Tus guardados",
+  "exportTxt": "Exportar .txt",
+  "clearSavedTitle": "Borrar guardados",
+  "clearSavedQuestion": "Se borrarán todos tus kaomojis guardados.",
+  "clearAll": "Borrar todo",
+  "savedDeleted": "Guardados eliminados",
+  "noSavedYet": "Aún no tienes kaomojis guardados.",
+  "noLicensesRegistered": "No hay licencias registradas.",
+  "licensesLegalese": "Esta aplicación incluye software de terceros y fuentes tipográficas distribuidas bajo licencias de código abierto. A continuación se listan las licencias registradas por el motor de Flutter y los paquetes de la app."
+}

@@ -1,0 +1,83 @@
+{
+  "@@locale": "en",
+  "catalogLoadError": "Could not load kaomojis.",
+  "splashSubtitle": "Kaomojis for your day",
+  "retry": "Retry",
+  "emotionsTab": "Emotions",
+  "creatorTab": "Creator",
+  "settingsTitle": "Settings",
+  "themeTitle": "Theme",
+  "themeSubtitle": "Choose app appearance",
+  "themeAutomatic": "Automatic",
+  "themeLight": "Light",
+  "themeDark": "Dark",
+  "licensesTitle": "Licenses",
+  "licensesSubtitle": "Open source licenses and fonts",
+  "exportTxtTooltip": "Export to .txt",
+  "exportFavorites": "Export favorites (.txt)",
+  "exportSaved": "Export saved (.txt)",
+  "exportFavoritesFileNameBase": "kaouwu_favorites",
+  "exportSavedFileNameBase": "kaouwu_saved",
+  "exportFavoritesSubject": "Kaouwu — favorites",
+  "exportSavedSubject": "Kaouwu — saved",
+  "settingsTooltip": "Settings",
+  "searchKaomojiHint": "Search kaomoji",
+  "emptyCategoryMessage": "There are no kaomojis in {categoryLabel} yet.",
+  "@emptyCategoryMessage": {
+    "placeholders": {
+      "categoryLabel": {}
+    }
+  },
+  "notFoundCategoryMessage": "No kaomojis found in {categoryLabel}.",
+  "@notFoundCategoryMessage": {
+    "placeholders": {
+      "categoryLabel": {}
+    }
+  },
+  "deleteKaomojiTitle": "Delete kaomoji",
+  "deleteKaomojiQuestion": "Do you want to remove {kaomoji} from saved?",
+  "@deleteKaomojiQuestion": {
+    "placeholders": {
+      "kaomoji": {}
+    }
+  },
+  "delete": "Delete",
+  "cancel": "Cancel",
+  "exportNoItems": "No kaomojis to export",
+  "exportError": "Could not export the file",
+  "creatorTitle": "Kaomoji Builder",
+  "skinToneTitle": "Skin tone (emojis)",
+  "skinToneDescription": "Applied to toned hands and arms in preview and when copying or saving.",
+  "randomMixTooltip": "Random mix",
+  "previewTitle": "Preview",
+  "copy": "Copy",
+  "save": "Save",
+  "copiedToClipboard": "Kaomoji copied to clipboard",
+  "savedInApp": "Kaomoji saved in app",
+  "decorationsTitle": "Decorations (multiple)",
+  "decorationsDescription": "Before: at the start of the kaomoji (left). After: at the end (right). Tap the strip to add pieces; you can combine many.",
+  "before": "Before",
+  "after": "After",
+  "startBefore": "Start (Before)",
+  "endAfter": "End (After)",
+  "appendOnSideLabel": "Tap to append (side: {side})",
+  "@appendOnSideLabel": {
+    "placeholders": {
+      "side": {}
+    }
+  },
+  "leftArm": "Left arm",
+  "faceExpression": "Face / expression",
+  "rightArm": "Right arm",
+  "clear": "Clear",
+  "noneTapBelow": "(none - tap the strip below to append)",
+  "savedSection": "Your saved",
+  "exportTxt": "Export .txt",
+  "clearSavedTitle": "Clear saved",
+  "clearSavedQuestion": "All your saved kaomojis will be removed.",
+  "clearAll": "Clear all",
+  "savedDeleted": "Saved deleted",
+  "noSavedYet": "You do not have saved kaomojis yet.",
+  "noLicensesRegistered": "No licenses are registered.",
+  "licensesLegalese": "This app includes third-party software and fonts distributed under open source licenses. The licenses registered by the Flutter engine and app packages are listed below."
+}
