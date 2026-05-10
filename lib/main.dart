@@ -2,9 +2,9 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
-import 'app.dart';
+import 'package:kaouwu/app.dart';
 
-export 'app.dart';
+export 'package:kaouwu/app.dart';
 
 void main() {
   WidgetsFlutterBinding.ensureInitialized();

@@ -4,7 +4,7 @@ import 'dart:typed_data';
 import 'package:flutter/material.dart';
 import 'package:share_plus/share_plus.dart';
 
-import '../l10n/app_localizations.dart';
+import 'package:kaouwu/l10n/app_localizations.dart';
 
 /// Shares a list of kaomojis as a `.txt` file using the native share sheet on iOS and Android.
 abstract final class KaomojiTxtExport {

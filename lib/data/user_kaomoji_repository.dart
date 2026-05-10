@@ -1,6 +1,6 @@
 import 'package:shared_preferences/shared_preferences.dart';
 
-import '../core/constants/app_constants.dart';
+import 'package:kaouwu/core/constants/app_constants.dart';
 
 /// Persistence for saved kaomojis and favorites.
 class UserKaomojiRepository {

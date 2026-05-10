@@ -3,8 +3,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter/scheduler.dart';
 import 'package:package_info_plus/package_info_plus.dart';
 
-import '../core/app_strings.dart';
-import '../l10n/app_localizations.dart';
+import 'package:kaouwu/core/app_strings.dart';
+import 'package:kaouwu/l10n/app_localizations.dart';
 
 const double _kTextVerticalSeparation = 18.0;
 

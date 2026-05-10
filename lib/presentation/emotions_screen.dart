@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
-import '../core/app_strings.dart';
-import '../core/constants/app_constants.dart';
-import '../core/emotion_category_ids.dart';
-import '../data/kaomoji_txt_export.dart';
-import '../l10n/app_localizations.dart';
-import 'settings_screen.dart';
-import 'widgets/kaomoji_grid.dart';
+import 'package:kaouwu/core/app_strings.dart';
+import 'package:kaouwu/core/constants/app_constants.dart';
+import 'package:kaouwu/core/emotion_category_ids.dart';
+import 'package:kaouwu/data/kaomoji_txt_export.dart';
+import 'package:kaouwu/l10n/app_localizations.dart';
+import 'package:kaouwu/presentation/settings_screen.dart';
+import 'package:kaouwu/presentation/widgets/kaomoji_grid.dart';
 
 String _emotionLabel(AppLocalizations l10n, String key) {
   switch (key) {

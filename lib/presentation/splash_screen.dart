@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
-import '../core/app_strings.dart';
-import '../core/constants/app_constants.dart';
-import '../l10n/app_localizations.dart';
-import 'main_screen.dart';
+import 'package:kaouwu/core/app_strings.dart';
+import 'package:kaouwu/core/constants/app_constants.dart';
+import 'package:kaouwu/l10n/app_localizations.dart';
+import 'package:kaouwu/presentation/main_screen.dart';
 
 class SplashScreen extends StatefulWidget {
   const SplashScreen({

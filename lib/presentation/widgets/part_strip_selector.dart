@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import '../../core/constants/app_constants.dart';
+import 'package:kaouwu/core/constants/app_constants.dart';
 
 /// Horizontal row of tappable chips (replaces a static dropdown style control).
 class PartStripSelector extends StatelessWidget {

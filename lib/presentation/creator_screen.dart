@@ -4,13 +4,13 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
-import '../core/constants/app_constants.dart';
-import '../core/emoji_skin_tone.dart';
-import '../data/creator_parts_repository.dart';
-import '../data/kaomoji_txt_export.dart';
-import '../l10n/app_localizations.dart';
-import 'widgets/kaomoji_grid.dart';
-import 'widgets/part_strip_selector.dart';
+import 'package:kaouwu/core/constants/app_constants.dart';
+import 'package:kaouwu/core/emoji_skin_tone.dart';
+import 'package:kaouwu/data/creator_parts_repository.dart';
+import 'package:kaouwu/data/kaomoji_txt_export.dart';
+import 'package:kaouwu/l10n/app_localizations.dart';
+import 'package:kaouwu/presentation/widgets/kaomoji_grid.dart';
+import 'package:kaouwu/presentation/widgets/part_strip_selector.dart';
 
 enum _DecoTarget { antes, despues }
 

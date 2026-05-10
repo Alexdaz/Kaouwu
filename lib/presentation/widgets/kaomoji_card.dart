@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
-import '../../core/constants/app_constants.dart';
+import 'package:kaouwu/core/constants/app_constants.dart';
 
 class KaomojiCard extends StatefulWidget {
   const KaomojiCard({

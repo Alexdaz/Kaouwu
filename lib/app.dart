@@ -2,10 +2,10 @@ import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
-import 'core/app_strings.dart';
-import 'core/constants/app_constants.dart';
-import 'l10n/app_localizations.dart';
-import 'presentation/splash_screen.dart';
+import 'package:kaouwu/core/app_strings.dart';
+import 'package:kaouwu/core/constants/app_constants.dart';
+import 'package:kaouwu/l10n/app_localizations.dart';
+import 'package:kaouwu/presentation/splash_screen.dart';
 
 class KaouwuApp extends StatefulWidget {
   const KaouwuApp({super.key});

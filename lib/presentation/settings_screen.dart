@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-import '../l10n/app_localizations.dart';
-import 'open_source_licenses_screen.dart';
+import 'package:kaouwu/l10n/app_localizations.dart';
+import 'package:kaouwu/presentation/open_source_licenses_screen.dart';
 
 class SettingsScreen extends StatefulWidget {
   const SettingsScreen({

@@ -2,7 +2,7 @@ import 'dart:convert';
 
 import 'package:flutter/services.dart';
 
-import '../core/constants/app_constants.dart';
+import 'package:kaouwu/core/constants/app_constants.dart';
 
 /// Minimal embedded parts if the JSON asset is missing or invalid (not a full duplicate catalog).
 const List<String> _kFallbackDecorations = [

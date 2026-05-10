@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 
-import '../core/constants/app_constants.dart';
-import '../l10n/app_localizations.dart';
-import '../data/kaomoji_catalog_repository.dart';
-import '../data/user_kaomoji_repository.dart';
-import 'creator_screen.dart';
-import 'emotions_screen.dart';
+import 'package:kaouwu/core/constants/app_constants.dart';
+import 'package:kaouwu/data/kaomoji_catalog_repository.dart';
+import 'package:kaouwu/data/user_kaomoji_repository.dart';
+import 'package:kaouwu/l10n/app_localizations.dart';
+import 'package:kaouwu/presentation/creator_screen.dart';
+import 'package:kaouwu/presentation/emotions_screen.dart';
 
 class MainScreen extends StatefulWidget {
   const MainScreen({

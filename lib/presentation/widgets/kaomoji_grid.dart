@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-import '../../core/constants/app_constants.dart';
-import 'kaomoji_card.dart';
+import 'package:kaouwu/core/constants/app_constants.dart';
+import 'package:kaouwu/presentation/widgets/kaomoji_card.dart';
 
 class KaomojiGrid extends StatelessWidget {
   const KaomojiGrid({

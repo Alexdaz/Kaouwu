@@ -2,7 +2,7 @@ import 'dart:convert';
 
 import 'package:flutter/services.dart';
 
-import '../core/constants/app_constants.dart';
+import 'package:kaouwu/core/constants/app_constants.dart';
 
 /// Loads and parses the kaomoji catalog from a JSON asset.
 class KaomojiCatalogRepository {
